@@ -11858,8 +11858,49 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-body {
-  background-color: aqua;
+.listaNoOrdenada {
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .listaNoOrdenada {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+  }
+}
+.contenedorLista {
+  padding: 0;
+}
+
+.listNav {
+  margin: 20px 10px 0px 4px;
+  padding-left: 0px;
+}
+
+.nav-item {
+  padding-left: 0;
+}
+
+.parraNav {
+  text-decoration: none;
+  color: grey;
+}
+
+.parraNav:hover {
+  color: black;
+}
+
+.logo {
+  height: 60px;
+}
+
+.logoNav {
+  margin-left: 10px;
 }
 
 /*# sourceMappingURL=styles.css.map */

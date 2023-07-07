@@ -35,7 +35,7 @@ body, html{
 /*Estilos Header*/
 
 header{
-    background-image: url('./Recursos integrador/home-lg.jpg');
+    background-image: url('../Recursos integrador/home-lg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

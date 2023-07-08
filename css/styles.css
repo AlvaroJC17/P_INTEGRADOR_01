@@ -171,6 +171,7 @@ footer {
 
 /*Media Queries*/
 
+
 @media (max-width: 992px){
     .tituloH2{
         font-size: 1.6rem;
@@ -216,7 +217,7 @@ footer {
         bottom: -50px;
         right: 0;
         left: 20px;
-        margin: 0px 60px 60px 0px;
+        margin: 0px 0px 60px 0px;
     }
 
     .textoHeader1 {
@@ -282,15 +283,21 @@ footer {
         width: 35px;
     }
 
-  
+    .imagenHeader {
+        background-image: url('../Recursos integrador/actividades.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 50%;
+        transition: margin-top 0.3s ease;
+    }
+
+ 
+
 
 
 }
-
-
-
-
-
 
  
     

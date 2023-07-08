@@ -60,9 +60,7 @@ html {
 
 }
 
-.parrafoMain{
 
-}
 
 /*Estilos Header QUIENES SOMOS*/
 
@@ -171,6 +169,28 @@ footer {
 
 /*Media Queries*/
 
+@media (min-width: 1400px){
+    .imagenHeader {
+        background-image: url('../Recursos integrador/actividades.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 50%;
+        transition: margin-top 0.3s ease;
+    }
+
+    .contenedorTexto {
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        left: 20px;
+        margin: 0px 0px 60px 0px;
+    }
+
+
+}
+
 
 @media (max-width: 992px){
     .tituloH2{
@@ -216,16 +236,18 @@ footer {
         position: absolute;
         bottom: -50px;
         right: 0;
-        left: 20px;
+        left: 0;
         margin: 0px 0px 60px 0px;
     }
 
     .textoHeader1 {
         font-size: 2rem;
+        display: inline-block;
     }
 
     .textoHeader2 {
         font-size: 0.8rem;
+        
     }
 
     .contenedorTextoHeader {
@@ -248,6 +270,12 @@ footer {
     .contenedorLogoGC3{
         margin-bottom: 0px;
     }
+
+    .textoImg,
+.parrafo1 {
+   text-align: center;
+
+}
 
 
 
@@ -290,10 +318,3 @@ footer {
 
 
 }
-
- 
-    
-
-
-   
-

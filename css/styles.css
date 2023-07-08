@@ -264,14 +264,6 @@ footer {
         font-size: 1rem;
     }
 
-    .contenedorTexto {
-        position: absolute;
-        bottom: 20;
-        right: 0;
-        left: 20px;
-        margin: 0px 60px 60px 0px;
-    }
-
     .iconosLaterales {
         margin-left: 0;
         margin-right: 0;

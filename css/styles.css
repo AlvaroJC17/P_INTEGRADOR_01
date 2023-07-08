@@ -1,4 +1,5 @@
-body, html{
+body,
+html {
     margin: 0px;
     padding: 0px;
     height: 100%;
@@ -7,34 +8,34 @@ body, html{
 /*Estilos NavBar*/
 
 
-.listaNoOrdenada{
+.listaNoOrdenada {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-.listNav{
-    margin: 20px 10px 0px 4px ;
+.listNav {
+    margin: 20px 10px 0px 4px;
     padding-left: 0px;
 }
 
 
-.parraNav{
+.parraNav {
     text-decoration: none;
     color: grey;
 }
 
-.parraNav:hover{
+.parraNav:hover {
     color: black;
 }
 
-.logo{
+.logo {
     height: 50px;
 }
 
-/*Estilos Header*/
+/*Estilos Header HOME*/
 
-header{
+.imagenCentral {
     background-image: url('../Recursos integrador/home-lg.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -42,33 +43,69 @@ header{
     position: relative;
     height: 50%;
     transition: margin-top 0.3s ease;
-    
+
 }
 
-.contenedorTexto{
-    position:absolute;
-    bottom: 0;
+.contenedorTexto {
+    position: absolute;
+    bottom: -40px;
     right: 0;
     margin: 0px 60px 60px 0px;
 }
-.textoImg, .parrafo1{
-    color: #28a745 ;
-    text-shadow: 2px 2px 1px black ;
-    
-}
 
-/*Estilos Main*/
+.textoImg,
+.parrafo1 {
+    color: #28a745;
+    text-shadow: 2px 2px 1px black;
 
-.textoMain{
-    font-size: 1.5rem;
 }
 
 .parrafoMain{
-    box-sizing: border-box;
+
 }
 
-.logoGC{
-    background-image: url('./Recursos integrador/gc.png');
+/*Estilos Header QUIENES SOMOS*/
+
+.imagenHeader {
+    background-image: url('../Recursos integrador/actividades.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 40%;
+    transition: margin-top 0.3s ease;
+}
+
+.contenedorTextoHeader {
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
+    margin: 0px 60px 60px 0px;
+    text-shadow: 2px 2px 1px black;
+}
+
+.textoHeader1 {
+    font-size: 3rem;
+}
+
+.textoHeader2 {
+    font-size: 1.3rem;
+}
+
+/*Estilos Main HOME*/
+
+.textoMain {
+    font-size: 1.5rem;
+}
+
+.parrafoMain {
+    box-sizing: border-box;
+    margin-left: 30px;
+margin-right: 30px;
+}
+
+.logoGC {
+    background-image: url('../Recursos integrador/gc.png');
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -78,84 +115,179 @@ header{
     padding: 0;
 }
 
-.videoYoutube{
+.videoYoutube {
     box-shadow: 10px 10px 10px black;
 }
-    
+
+/*Estilo Main QUIENES SOMOS*/
+
+.tituloH2 {
+    background-color: #28a745;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+
 
 
 /* Estilos Footer*/
 
-footer{
+footer {
     background-color: #3c4146;
     padding: 20px;
     width: 100%;
     bottom: 0;
-    
+
 }
 
-.caracteres{
+.caracteres {
     margin-top: 0.25rem;
     font-size: .875em;
     color: #6c757d;
 }
 
-.tituloh2{
-    color:#28a745 ;
+.tituloh2 {
+    color: #28a745;
     font-size: 70px;
-    text-shadow: 3px 3px 2px black ;
+    text-shadow: 3px 3px 2px black;
     font-size: 1.7rem;
     display: inline-block;
 }
 
-.slogan{
+.slogan {
     background-color: white;
 }
 
-.direccion{
-    border: solid #28a745 ;
+.direccion {
+    border: solid #28a745;
     border-radius: 30px;
 }
 
-.listadireccion{
+.listadireccion {
     margin: 5px 0px 5px 0px;
 }
 
 /*Media Queries*/
 
-@media(max-width: 767px){
-    .listaNoOrdenada{
+@media (max-width: 992px){
+    .tituloH2{
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 767px) {
+    .listaNoOrdenada {
         list-style: none;
         display: flex;
         flex-direction: column;
         align-items: start;
         margin: 0;
     }
-    
-        .imgSVG{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
+
+    .imgSVG {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-@media(max-width:526px){
-    .videoYoutube{
-        width: 280px;
+    .logoGC {
+        background-image: url('../Recursos integrador/gc.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border: none;
+        width: 20px;
+        margin: 0;
+        padding: 0;
+
+
     }
-    .textoCentral{
+
+    .videoYoutube {
+        height: 350px;
+        width: 400px;
+    }
+
+    .contenedorTexto {
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        left: 20px;
+        margin: 0px 60px 60px 0px;
+    }
+
+    .textoHeader1 {
+        font-size: 2rem;
+    }
+
+    .textoHeader2 {
+        font-size: 0.8rem;
+    }
+
+    .contenedorTextoHeader {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        left: 0;
+        margin: 0;
+        text-shadow: 2px 2px 1px black;
+    }
+
+    .logoGC2 {
+        width: 35px;
+    }
+
+    .logoGC3{
+        display: none;
+    }
+
+    .contenedorLogoGC3{
+        margin-bottom: 0px;
+    }
+
+
+
+
+}
+
+@media(max-width:526px) {
+    .videoYoutube {
+        width: 200px;
+        height: 250px;
+    }
+
+    .textoCentral {
         font-size: 1rem;
     }
-    .contenedorTexto{
-        position:absolute;
+
+    .contenedorTexto {
+        position: absolute;
         bottom: 20;
         right: 0;
         left: 20px;
         margin: 0px 60px 60px 0px;
     }
+
+    .iconosLaterales {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .logoGC{
+        width: 35px;
+    }
+
+  
+
+
 }
-    
+
+
 
 
 

@@ -145,7 +145,7 @@ footer {
         background-size: cover;
         background-position: center;
         position: relative;
-        height: 80%;
+        height: 100%;
         transition: margin-top 0.3s ease;
     }
 }

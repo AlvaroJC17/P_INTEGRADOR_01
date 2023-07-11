@@ -137,7 +137,7 @@ footer {
 }
 
 /*Media Queries*/
-@media (min-width: 1400px){
+@media (min-width: 1600px){
  
     .imagenHeader {
         background-image: url('../Recursos integrador/actividades.jpg');

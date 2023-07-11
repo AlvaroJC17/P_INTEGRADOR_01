@@ -137,26 +137,7 @@ footer {
 }
 
 /*Media Queries*/
-@media (min-width: 1600px){
- 
-    .imagenHeader {
-        background-image: url('../Recursos integrador/actividades.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        position: relative;
-        height: 150%;
-        transition: margin-top 0.3s ease;
-    }
 
-     .textoHeader1 {
-        font-size: 2rem;
-        display: inline-block;
-    }
-    .textoHeader2 {
-        font-size: 0.8rem;
-    }
-}
 @media (max-width: 992px){
     .tituloH2{
         font-size: 1.6rem;

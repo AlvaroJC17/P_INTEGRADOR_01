@@ -5,12 +5,20 @@ html {
     height: 100%;
 }
 
+<<<<<<< HEAD
 /*ESTILOS BARRA NAV*/
+=======
+/*Estilos Barra de navegación*/
+>>>>>>> 053d591dcef42aaaf8641972c16c749ffda6a74c
 .listaNoOrdenada {
     display: flex;
     list-style: none;
     align-items: center;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 053d591dcef42aaaf8641972c16c749ffda6a74c
 .listNav {
     margin: 20px 10px 0px 4px;
     padding-left: 0px;
@@ -19,13 +27,22 @@ html {
     text-decoration: none;
     color: grey;
 }
+<<<<<<< HEAD
 .parraNav:hover {
     color: black;
 }
+=======
+
+.parraNav:hover {
+    color: black;
+}
+
+>>>>>>> 053d591dcef42aaaf8641972c16c749ffda6a74c
 .logo {
     height: 50px;
 }
 
+<<<<<<< HEAD
 /* ESTILOS FOOTER*/
 footer {
     background-color: #3c4146;
@@ -51,6 +68,9 @@ footer {
 }
 
 /*ESTILOS PAGINA HOME*/
+=======
+/*Estilos Header HOME*/
+>>>>>>> 053d591dcef42aaaf8641972c16c749ffda6a74c
 .imagenCentral {
     background-image: url('../Recursos integrador/home-lg.jpg');
     background-repeat: no-repeat;
@@ -58,6 +78,10 @@ footer {
     background-position: center;
     position: relative;
     height: 50%;
+<<<<<<< HEAD
+=======
+    transition: margin-top 0.3s ease;
+>>>>>>> 053d591dcef42aaaf8641972c16c749ffda6a74c
 }
 .contenedorTexto {
     position: absolute;
@@ -70,6 +94,35 @@ footer {
     color: #28a745;
     text-shadow: 2px 2px 1px black;
 }
+<<<<<<< HEAD
+=======
+
+/*Estilos Header QUIENES SOMOS*/
+.imagenHeader {
+    background-image: url('../Recursos integrador/actividades.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 50%;
+    transition: margin-top 0.3s ease;
+}
+.contenedorTextoHeader {
+    position: absolute;
+    bottom: -40px;
+    left: 10px;
+    margin: 0px 60px 60px 0px;
+    text-shadow: 2px 2px 1px black;
+}
+.textoHeader1 {
+    font-size: 3rem;
+}
+.textoHeader2 {
+    font-size: 1.3rem;
+}
+
+/*Estilos Main HOME*/
+>>>>>>> 053d591dcef42aaaf8641972c16c749ffda6a74c
 .textoMain {
     font-size: 1.5rem;
 }
@@ -90,6 +143,7 @@ footer {
 .videoYoutube {
     box-shadow: 10px 10px 10px black;
 }
+<<<<<<< HEAD
    
 
 /*ESTILOS PAGINA QUIENES SOMOS*/
@@ -206,6 +260,59 @@ footer {
 
     /*pagina home*/
     .listaNoOrdenada {
+=======
+
+/*Estilo Main QUIENES SOMOS*/
+.tituloH2 {
+    background-color: #28a745;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+}
+
+/* Estilos Footer*/
+footer {
+    background-color: #3c4146;
+    padding: 20px;
+    width: 100%;
+    bottom: 0;
+}
+.caracteres {
+    margin-top: 0.25rem;
+    font-size: .875em;
+    color: #6c757d;
+}
+.tituloh2 {
+    color: #28a745;
+    font-size: 70px;
+    text-shadow: 3px 3px 2px black;
+    font-size: 1.7rem;
+    display: inline-block;
+}
+.slogan {
+    background-color: white;
+}
+.direccion {
+    border: solid #28a745;
+    border-radius: 30px;
+}
+.listadireccion {
+    margin: 5px 0px 5px 0px;
+}
+
+/*Media Queries*/
+
+@media (max-width: 992px){
+    .tituloH2{
+        font-size: 1.6rem;
+    }
+}
+
+@media(max-width: 767px) {
+    .listaNoOrdenada {
+        list-style: none;
+        display: flex;
+>>>>>>> 053d591dcef42aaaf8641972c16c749ffda6a74c
         flex-direction: column;
         align-items: start;
         margin: 0;
@@ -215,6 +322,7 @@ footer {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+<<<<<<< HEAD
     }
     .logoGC {
         width: 20px;
@@ -243,6 +351,47 @@ footer {
         right: 0;
         left: 0;
         margin: 0;
+=======
+    }
+    .logoGC {
+        background-image: url('../Recursos integrador/gc.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        border: none;
+        width: 20px;
+        margin: 0;
+        padding: 0;
+    }
+    .videoYoutube {
+        height: 350px;
+        width: 400px;
+    }
+    .contenedorTexto {
+        position: absolute;
+        bottom: -50px;
+        right: 0;
+        left: 0;
+        margin: 0px 0px 60px 0px;
+    }
+    .textoHeader1 {
+        font-size: 2rem;
+        display: inline-block;
+    }
+    .textoHeader2 {
+        font-size: 0.8rem;
+    }
+    .contenedorTextoHeader {
+        position: absolute;
+        bottom: 10px;
+        right: 0;
+        left: 0;
+        margin: 0;
+        text-shadow: 2px 2px 1px black;
+    }
+    .logoGC2 {
+        width: 35px;
+>>>>>>> 053d591dcef42aaaf8641972c16c749ffda6a74c
     }
     .logoGC3{
         display: none;
@@ -255,6 +404,7 @@ footer {
     }
     .logoGC{
         width: 35px;
+<<<<<<< HEAD
     }
 
     /*Pagina Proyecto*/
@@ -348,3 +498,33 @@ footer {
  
 
 
+=======
+    }
+}
+
+@media(max-width:526px) {
+    .videoYoutube {
+        width: 200px;
+        height: 250px;
+    }
+    .textoCentral {
+        font-size: 1rem;
+    }
+    .iconosLaterales {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+   
+    .imagenHeader {
+        background-image: url('../Recursos integrador/actividades.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        height: 50%;
+        transition: margin-top 0.3s ease;
+    }
+}
+>>>>>>> 053d591dcef42aaaf8641972c16c749ffda6a74c
